@@ -1,29 +1,23 @@
 body {
-    background: #000000;
-    color: #FFFFFF;
+    background: #363636;
 }
 
 .drag {
-    background-color: #002B36;
-    color: #FFFFFF;
+    background-color: lightblue;
 }
 
 #header {
-    background: #001F27;
-    color: #FFFFFF;
+    background: #A0CFFF;
+    color: #3474A8;
 }
 
 #dropzone {
     height: 450px;
     cursor: pointer;
-    background-color: #002B36;
-    color: #FFFFFF;
 }
 
 #output-box {
     display: none;
-    background-color: #000000;
-    color: #FFFFFF;
 }
 
 .ace_hidden-cursors {
@@ -31,18 +25,15 @@ body {
 }
 
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
-    background-color: #001F27;
-    color: #FFFFFF;
+    background-color: #F5F5E7;
 }
 
 #data {
     margin-bottom: 0;
-    color: #FFFFFF;
 }
 
 #data th span {
     cursor: help;
-    color: #FFFFFF;
 }
 
 #data th, #data td {
@@ -50,5 +41,4 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    color: #FFFFFF;
 }
