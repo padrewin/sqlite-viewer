@@ -1,23 +1,29 @@
 body {
-    background: #f5f5f5;
+    background: #000000; /* Fundal negru */
+    color: #00FF00; /* Text verde */
 }
 
 .drag {
-    background-color: lightblue;
+    background-color: #002B36; /* Fundal mai întunecat pentru elementele de drag */
+    color: #00FF00; /* Text verde */
 }
 
 #header {
-    background: #A0CFFF;
-    color: #3474A8;
+    background: #001F27; /* Fundal mai închis pentru header */
+    color: #00FF00; /* Text verde */
 }
 
 #dropzone {
     height: 450px;
     cursor: pointer;
+    background-color: #002B36; /* Fundal mai închis pentru dropzone */
+    color: #00FF00; /* Text verde */
 }
 
 #output-box {
     display: none;
+    background-color: #000000; /* Fundal negru */
+    color: #00FF00; /* Text verde */
 }
 
 .ace_hidden-cursors {
@@ -25,15 +31,18 @@ body {
 }
 
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
-    background-color: #F5F5E7;
+    background-color: #001F27; /* Fundal întunecat la hover */
+    color: #00FF00; /* Text verde */
 }
 
 #data {
     margin-bottom: 0;
+    color: #00FF00; /* Text verde */
 }
 
 #data th span {
     cursor: help;
+    color: #00FF00; /* Text verde */
 }
 
 #data th, #data td {
@@ -41,4 +50,5 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    color: #00FF00; /* Text verde */
 }
